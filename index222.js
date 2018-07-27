@@ -4,6 +4,7 @@ var data = [
     itemStyle: {
       color: '#777'
     },
+    
     children: [
       {
         name: '会员等级',

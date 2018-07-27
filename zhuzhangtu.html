@@ -5,7 +5,7 @@
     <title>ECharts</title>
     <!-- 引入 echarts.js -->
     <script src="./echarts4.x.js"></script>
-    <script type="text/javascript" src="./histogram.js"></script>
+    <script type="text/javascript" src="./zhuzhangtu.js"></script>
 </head>
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
@@ -13,13 +13,8 @@
     <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main'));
-
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
-        myChart.on('click', function (params) {
-            // 控制台打印数据的名称
-            console.log(params);
-        });
     </script>
 </body>
 </html>
